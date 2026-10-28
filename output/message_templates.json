@@ -1,0 +1,6 @@
+[
+{"template_id": "TPL-EMAIL-001", "template_name": "Email Cart Reminder", "channel": "EMAIL", "subject": "You left something in your cart!", "message_body": "Hi {{first_name}}, your cart is waiting for you. Come back and complete your purchase.", "language_code": "en", "template_version": 1, "created_at": "2026-08-27T00:00:00", "is_active": 1},
+{"template_id": "TPL-EMAIL-002", "template_name": "Email Product Reminder", "channel": "EMAIL", "subject": "Still thinking it over?", "message_body": "Hi {{first_name}}, the items you selected are waiting for you. Visit your cart to continue shopping.", "language_code": "en", "template_version": 1, "created_at": "2026-08-27T00:00:00", "is_active": 1},
+{"template_id": "TPL-SMS-001", "template_name": "SMS Cart Reminder", "channel": "SMS", "subject": null, "message_body": "Your shopping cart is waiting! Return to the store to complete your purchase.", "language_code": "en", "template_version": 1, "created_at": "2026-08-27T00:00:00", "is_active": 1},
+{"template_id": "TPL-SMS-002", "template_name": "SMS Shopping Reminder", "channel": "SMS", "subject": null, "message_body": "Still interested in your items? Your cart is ready when you are.", "language_code": "en", "template_version": 1, "created_at": "2026-08-27T00:00:00", "is_active": 1}
+]

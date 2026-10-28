@@ -1,0 +1,5 @@
+﻿template_id,template_name,channel,subject,message_body,language_code,template_version,created_at,is_active
+TPL-EMAIL-001,Email Cart Reminder,EMAIL,You left something in your cart!,"Hi {{first_name}}, your cart is waiting for you. Come back and complete your purchase.",en,1,2026-08-27T00:00:00,1
+TPL-EMAIL-002,Email Product Reminder,EMAIL,Still thinking it over?,"Hi {{first_name}}, the items you selected are waiting for you. Visit your cart to continue shopping.",en,1,2026-08-27T00:00:00,1
+TPL-SMS-001,SMS Cart Reminder,SMS,,Your shopping cart is waiting! Return to the store to complete your purchase.,en,1,2026-08-27T00:00:00,1
+TPL-SMS-002,SMS Shopping Reminder,SMS,,Still interested in your items? Your cart is ready when you are.,en,1,2026-08-27T00:00:00,1

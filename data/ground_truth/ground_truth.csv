@@ -1,0 +1,5 @@
+anomaly_id,issue_type,affected_table,record_id,expected_behavior,description
+ANOM-001,MESSAGE_SENT_AFTER_OPTOUT,send_attempts,SEND-2026-000199,SUPPRESS_SEND,Temporary opt-out effective at 2026-10-25 20:00:00; SMS send occurred at 2026-10-25 21:24:00. Validation detected the violation; temporary consent records were removed afterward.
+ANOM-002,CART_ABANDONED_AFTER_PURCHASE,carts,CART-2026-000605,DO_NOT_MARK_ABANDONED,"Temporary test: abandonment timestamp was moved to 2026-10-26 00:00:00, after order ORD-2026-000030 at 2026-10-25 23:48:58. Validation detected the violation; original timestamp was restored."
+ANOM-003,DUPLICATE_CONVERSION_ATTRIBUTION,attributions,ORD-2026-000033,ONE_CREDIT_PER_ORDER,Attribution IDs 3 and 4 both received CREDITED status for the same order; credited revenue totals 8594.00 against an order total of 4297.00.
+ANOM-004,STALE_CART_TOTAL_AFTER_QUANTITY_UPDATE,carts,CART-2026-000001,RECALCULATE_CART_TOTAL,Phone Case quantity increased from 1 to 2; expected cart total is 2497.00 but stored total remains 2148.00.

@@ -1,0 +1,92 @@
+{
+  "database": "abandoned_cart_full_db",
+  "exported_at": "2026-10-28T18:47:13.861375+05:30",
+  "tables": {
+    "customers": {
+      "rows": 50000,
+      "csv": "output\\customers.csv",
+      "json": "output\\customers.json"
+    },
+    "consent_events": {
+      "rows": 114870,
+      "csv": "output\\consent_events.csv",
+      "json": "output\\consent_events.json"
+    },
+    "sessions": {
+      "rows": 50000,
+      "csv": "output\\sessions.csv",
+      "json": "output\\sessions.json"
+    },
+    "carts": {
+      "rows": 50000,
+      "csv": "output\\carts.csv",
+      "json": "output\\carts.json"
+    },
+    "cart_lines": {
+      "rows": 150712,
+      "csv": "output\\cart_lines.csv",
+      "json": "output\\cart_lines.json"
+    },
+    "cart_events": {
+      "rows": 220712,
+      "csv": "output\\cart_events.csv",
+      "json": "output\\cart_events.json"
+    },
+    "campaigns": {
+      "rows": 10000,
+      "csv": "output\\campaigns.csv",
+      "json": "output\\campaigns.json"
+    },
+    "message_templates": {
+      "rows": 4,
+      "csv": "output\\message_templates.csv",
+      "json": "output\\message_templates.json"
+    },
+    "campaign_templates": {
+      "rows": 20000,
+      "csv": "output\\campaign_templates.csv",
+      "json": "output\\campaign_templates.json"
+    },
+    "campaign_carts": {
+      "rows": 10000,
+      "csv": "output\\campaign_carts.csv",
+      "json": "output\\campaign_carts.json"
+    },
+    "send_attempts": {
+      "rows": 10000,
+      "csv": "output\\send_attempts.csv",
+      "json": "output\\send_attempts.json"
+    },
+    "message_events": {
+      "rows": 31991,
+      "csv": "output\\message_events.csv",
+      "json": "output\\message_events.json"
+    },
+    "orders": {
+      "rows": 4364,
+      "csv": "output\\orders.csv",
+      "json": "output\\orders.json"
+    },
+    "order_lines": {
+      "rows": 13108,
+      "csv": "output\\order_lines.csv",
+      "json": "output\\order_lines.json"
+    },
+    "order_events": {
+      "rows": 8728,
+      "csv": "output\\order_events.csv",
+      "json": "output\\order_events.json"
+    },
+    "attributions": {
+      "rows": 236,
+      "csv": "output\\attributions.csv",
+      "json": "output\\attributions.json"
+    }
+  },
+  "note": "Exports of existing database records; no database writes performed.",
+  "sql_seed": {
+    "file": "output/database_seed.sql",
+    "rows_exported": 744725,
+    "executed": false
+  }
+}

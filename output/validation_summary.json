@@ -1,0 +1,91 @@
+{
+  "generated_at_utc": "2026-10-28T19:31:24.354277+00:00",
+  "database": "abandoned_cart_full_db",
+  "tables_checked": 16,
+  "total_csv_rows": 744725,
+  "total_json_rows": 744725,
+  "table_results": {
+    "customers": {
+      "csv_rows": 50000,
+      "json_rows": 50000,
+      "counts_match": true
+    },
+    "consent_events": {
+      "csv_rows": 114870,
+      "json_rows": 114870,
+      "counts_match": true
+    },
+    "sessions": {
+      "csv_rows": 50000,
+      "json_rows": 50000,
+      "counts_match": true
+    },
+    "carts": {
+      "csv_rows": 50000,
+      "json_rows": 50000,
+      "counts_match": true
+    },
+    "cart_lines": {
+      "csv_rows": 150712,
+      "json_rows": 150712,
+      "counts_match": true
+    },
+    "cart_events": {
+      "csv_rows": 220712,
+      "json_rows": 220712,
+      "counts_match": true
+    },
+    "campaigns": {
+      "csv_rows": 10000,
+      "json_rows": 10000,
+      "counts_match": true
+    },
+    "message_templates": {
+      "csv_rows": 4,
+      "json_rows": 4,
+      "counts_match": true
+    },
+    "campaign_templates": {
+      "csv_rows": 20000,
+      "json_rows": 20000,
+      "counts_match": true
+    },
+    "campaign_carts": {
+      "csv_rows": 10000,
+      "json_rows": 10000,
+      "counts_match": true
+    },
+    "send_attempts": {
+      "csv_rows": 10000,
+      "json_rows": 10000,
+      "counts_match": true
+    },
+    "message_events": {
+      "csv_rows": 31991,
+      "json_rows": 31991,
+      "counts_match": true
+    },
+    "orders": {
+      "csv_rows": 4364,
+      "json_rows": 4364,
+      "counts_match": true
+    },
+    "order_lines": {
+      "csv_rows": 13108,
+      "json_rows": 13108,
+      "counts_match": true
+    },
+    "order_events": {
+      "csv_rows": 8728,
+      "json_rows": 8728,
+      "counts_match": true
+    },
+    "attributions": {
+      "csv_rows": 236,
+      "json_rows": 236,
+      "counts_match": true
+    }
+  },
+  "errors": [],
+  "result": "PASS"
+}
