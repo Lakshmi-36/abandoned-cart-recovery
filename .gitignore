@@ -1,0 +1,70 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets and local environment settings
+.env
+.env.*
+!.env.example
+
+# Generated datasets and outputs
+data/raw/*
+data/processed/*
+data/events/*
+data/exports/*
+data/ground_truth/*
+output/*
+
+# Keep folder placeholders, if present
+!.gitkeep
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+# Local backup files and packaged copies
+*.backup
+*.backup.py
+app_backup_before_upgrade.py
+README_recovery_control_center.txt
+*.zip
+app_backup_before_upgrade.py
+config/project_config_before_fix.json
+# Local backup files
+app_backup_before_upgrade.py
+app_recovery_control_center.backup.py
+config/project_config_before_fix.json
+*.backup
+*.backup.py
+
+# Alternative dashboard versions - keep local, don't upload
+recovery_control_center_no_password/
+recovery_control_center_professional/
+
+# Legacy dashboard
+
+# Local backup files
+app_backup_before_upgrade.py
+app_recovery_control_center.backup.py
+config/project_config_before_fix.json
+*.backup
+*.backup.py
+
+# Alternative dashboard versions - keep local, don't upload
+recovery_control_center_no_password/
+recovery_control_center_professional/
+
+# Legacy dashboard

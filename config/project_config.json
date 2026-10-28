@@ -1,0 +1,63 @@
+{
+  "project": {
+    "name": "Abandoned Cart Recovery and Conversion Attribution Pipeline",
+    "random_seed": 20261022,
+    "timezone": "UTC",
+    "currency": "INR"
+  },
+  "data_generation": {
+    "starter": {
+      "target_carts": 1000,
+      "target_abandoned_carts": 400,
+      "target_campaigns": 200,
+      "target_send_attempts": 200,
+      "target_orders": 100
+    },
+    "full": {
+      "target_carts": 50000,
+      "target_abandoned_carts": 20000,
+      "target_campaigns": 10000,
+      "target_send_attempts": 10000,
+      "target_orders": 5000
+    }
+  },
+  "business_rules": {
+    "abandonment_inactivity_hours": 24,
+    "attribution_window_hours": 168,
+    "frequency_cap": {
+      "max_messages": 3,
+      "window_days": 7,
+      "scope": "customer_channel"
+    },
+    "consent": {
+      "require_valid_consent_at_send_time": true,
+      "suppress_after_opt_out": true
+    },
+    "attribution": {
+      "model": "LAST_CLICK",
+      "prevent_duplicate_credit": true
+    }
+  },
+  "anomalies": {
+    "inject_labeled_anomalies": true,
+    "keep_ground_truth_separate": true,
+    "required_cases": [
+      "MESSAGE_SENT_AFTER_OPTOUT",
+      "CART_ABANDONED_AFTER_PURCHASE",
+      "DUPLICATE_CONVERSION_ATTRIBUTION",
+      "STALE_CART_TOTAL_AFTER_QUANTITY_UPDATE"
+    ]
+  },
+  "exports": {
+    "formats": [
+      "csv",
+      "json",
+      "sql"
+    ],
+    "include_readme": true,
+    "include_data_dictionary": true,
+    "include_source_manifest": true,
+    "include_validation_summary": true,
+    "include_reproducibility_checksums": true
+  }
+}
